@@ -1,4 +1,3 @@
-
 import React, { useState, useRef, useEffect } from 'react';
 import { generateSpeech } from './services/geminiService';
 import { decode, decodeAudioData } from './utils/audio';
@@ -23,7 +22,7 @@ const voices: Voice[] = [
 ];
 
 const App: React.FC = () => {
-  const [text, setText] = useState<string>('Hello! This is a demonstration of text-to-speech using the Gemini API.');
+  const [text, setText] = useState<string>('Welcome! Type or paste any text here to hear it spoken aloud.');
   const [selectedVoice, setSelectedVoice] = useState<string>('Zephyr');
   const [rate, setRate] = useState<number>(100); // Percentage
   const [pitch, setPitch] = useState<number>(0); // Percentage offset

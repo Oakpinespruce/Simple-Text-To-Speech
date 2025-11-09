@@ -68,7 +68,7 @@ export const generateSpeech = async (
     
     return base64Audio;
   } catch (error) {
-    console.error("Error generating speech with Gemini API:", error);
-    throw new Error("Failed to communicate with the AI model. Please check your connection or API key.");
+    console.error("Error generating speech:", error);
+    throw new Error("Failed to communicate with the speech service. Please check your connection or API key.");
   }
 };

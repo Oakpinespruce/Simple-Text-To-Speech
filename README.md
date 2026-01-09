@@ -8,13 +8,13 @@ Built with **React, TypeScript, and Vite**, featuring real-time audio visualizat
 ##  Features
 
 - Convert text to natural-sounding speech
-- Play / ⏹ Stop audio output
+- Play / top audio output
 - Download generated audio
 - Clean, modular React component structure
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - **Frontend:** React + TypeScript
 - **Build Tool:** Vite

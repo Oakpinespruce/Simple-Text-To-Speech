@@ -1,9 +1,13 @@
 import React from 'react';
 
-const SoundWaveIcon: React.FC = () => (
+interface Props {
+  className?: string;
+}
+
+const SoundWaveIcon: React.FC<Props> = ({ className = "h-6 w-6" }) => (
   <svg 
     xmlns="http://www.w3.org/2000/svg" 
-    className="h-6 w-6" 
+    className={className}
     fill="none" 
     viewBox="0 0 24 24" 
     stroke="currentColor" 
